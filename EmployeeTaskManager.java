@@ -4,11 +4,11 @@ import java.util.Scanner;
 public class EmployeeTaskManager {
 	   // JDBC driver name and database url   
     static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
-    static final String DB_URL = "jdbc:mysql://localhost:3306/projdata";
+    static final String DB_URL = "";
 
 //Credientials for logging into DB. Change values for diff users.
-    static final String USER = "root";
-    static final String PW = "Colindres";
+    static final String USER = "";
+    static final String PW = "";
 
     public static void main(String[] args) throws SQLException {
         EmployeeTaskManager console = new EmployeeTaskManager();
